@@ -12,7 +12,7 @@ import gen_dates
 SCOPES = ['https://www.googleapis.com/auth/calendar', 'https://www.googleapis.com/auth/calendar.events']
 
 # Calendar ID for Class calendar
-CALENDAR_ID = 'c_u3qrj4okijfn7fp0s8t3f9guhc@group.calendar.google.com'
+CALENDAR_ID = open('calendar_id.txt').read()
 
 def main():
     creds = None
